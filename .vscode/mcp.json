@@ -50,12 +50,6 @@
                 "mcp-server-docker"
             ]
         },
-        "markdownify": {
-            "command": "uvx",
-            "args": [
-                "markdownify-mcp"
-            ]
-        }
     },
     "inputs": []
 }
