@@ -24,8 +24,8 @@
 - 以降の Milestone がこの基盤を前提に進められる
 
 ## 対象 Feature
-- [ ] feature-01-01-01-auth-and-access-baseline
-- [ ] feature-01-01-02-secure-navigation-shell
+- [ ] feature-01-01-01-auth-and-access-baseline.md
+- [ ] feature-01-01-02-secure-navigation-shell.md
 
 ## 依存関係
 - 前提条件: 既存の認証・認可基盤が利用可能であること
