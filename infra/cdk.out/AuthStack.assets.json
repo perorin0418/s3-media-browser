@@ -1,0 +1,21 @@
+{
+  "version": "48.0.0",
+  "files": {
+    "d0d253aa47385f8447319424ee38deb5dbef1b7bbcac5aba0b718fbf621f521f": {
+      "displayName": "AuthStack Template",
+      "source": {
+        "path": "AuthStack.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "698807804820-ap-northeast-1-59190df3": {
+          "bucketName": "cdk-hnb659fds-assets-698807804820-ap-northeast-1",
+          "objectKey": "d0d253aa47385f8447319424ee38deb5dbef1b7bbcac5aba0b718fbf621f521f.json",
+          "region": "ap-northeast-1",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::698807804820:role/cdk-hnb659fds-file-publishing-role-698807804820-ap-northeast-1"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}
