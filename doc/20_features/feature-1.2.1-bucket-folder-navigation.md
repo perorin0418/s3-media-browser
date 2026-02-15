@@ -30,8 +30,8 @@ S3 のバケット/フォルダ階層を安全に辿れる一覧ナビゲーシ�
 - エラーハンドリングはフェイルクローズを徹底し、再試行手段を示す
 
 ## 対象 Task
-- [ ] task-1.2.1.1-xxxxx
-- [ ] task-1.2.1.2-xxxxx
+- [ ] task-1.2.1.1-bucket-folder-navigation-api
+- [ ] task-1.2.1.2-bucket-folder-navigation-ui
 
 ## 受け入れ条件
 - バケット/フォルダを一覧操作で移動できる
