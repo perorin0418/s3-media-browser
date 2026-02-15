@@ -32,7 +32,7 @@
 - 将来の機能追加がシェルに依存できるよう拡張可能な構造とする。
 
 ## 対象 Task
-- [ ] task-1.1-2.1-secure-navigation-shell.md
+- [x] task-1.1-2.1-secure-navigation-shell.md
 
 ## 受け入れ条件
 - 認証済みユーザーのみナビゲーションシェルが表示される。

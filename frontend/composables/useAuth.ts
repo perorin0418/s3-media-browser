@@ -162,6 +162,13 @@ export const useAuth = () => {
     status.value = "unauthenticated";
   };
 
+  const resolveAuthStatus = () => {
+    if (process.client && status.value === "unknown") {
+      loadFromStorage();
+    }
+    return status.value;
+  };
+
   const storeAuthRequest = (state: string, verifier: string) => {
     if (!process.client) return;
     sessionStorage.setItem(OAUTH_STATE_KEY, state);
@@ -257,6 +264,7 @@ export const useAuth = () => {
     status,
     tokens,
     loadFromStorage,
+    resolveAuthStatus,
     clearTokens,
     buildHostedUiSignInUrl,
     buildHostedUiSignOutUrl,

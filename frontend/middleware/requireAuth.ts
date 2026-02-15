@@ -1,11 +1,9 @@
 export default defineNuxtRouteMiddleware(() => {
   const auth = useAuth();
 
-  if (process.client && auth.status.value === "unknown") {
-    auth.loadFromStorage();
-  }
+  const status = auth.resolveAuthStatus();
 
-  if (!auth.isAuthenticatedWithFreshToken()) {
+  if (status !== "authenticated" || !auth.isAuthenticatedWithFreshToken()) {
     return navigateTo("/signin");
   }
 });
