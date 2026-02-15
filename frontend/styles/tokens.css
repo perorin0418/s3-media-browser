@@ -1,0 +1,21 @@
+:root {
+  --color-bg: #f5f1ea;
+  --color-surface: #ffffff;
+  --color-ink: #1e1a16;
+  --color-muted: #6f6559;
+  --color-accent: #d66a2d;
+  --color-danger: #b21f2d;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 16px;
+  --space-4: 24px;
+  --space-5: 32px;
+
+  --radius-1: 6px;
+  --radius-2: 12px;
+
+  --shadow-card: 0 18px 40px rgba(30, 26, 22, 0.12);
+
+  --font-sans: "Space Grotesk", "IBM Plex Sans", "Segoe UI", sans-serif;
+}

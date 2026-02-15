@@ -1,0 +1,20 @@
+# CDK output
+cdk.out/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+.venv-*/
+
+# Local environment files
+.env
+.env.*
+
+# Editor files
+.vscode/
+.DS_Store

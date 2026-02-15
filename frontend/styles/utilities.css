@@ -1,0 +1,10 @@
+.u-center {
+  display: grid;
+  place-items: center;
+}
+
+.u-stack {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}

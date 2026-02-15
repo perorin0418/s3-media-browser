@@ -44,9 +44,9 @@ CDK で構築した Cognito と Hosted UI を前提に、認証導線と認証�
 - 認証不確実時はアクセスが拒否される
 
 ## 対象 ChangeSets
-- [x] changeset-01.01.01.01.01-cognito-hosted-ui-infra
-- [ ] changeset-01.01.01.01.02-frontend-auth-entry
-- [ ] changeset-01.01.01.01.03-api-auth-context-wiring
+- [x] changeset-01.01.01.01.01-cognito-hosted-ui-infra.md
+- [ ] changeset-01.01.01.01.02-frontend-auth-entry.md
+- [ ] changeset-01.01.01.01.03-api-auth-context-wiring.md
 
 ## チェックリスト
 - [ ] Cognito は CDK 構成として定義されている
