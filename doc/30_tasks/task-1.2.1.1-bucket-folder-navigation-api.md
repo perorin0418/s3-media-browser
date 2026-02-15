@@ -30,11 +30,11 @@ S3 のバケット一覧/プレフィックス一覧を API 経由で取得で�
 - 最低限の正常/異常経路がテストで確認できる
 
 ## 対象 ChangeSets
-- [ ] changeset-1.2.1.1.1-define-navigation-interfaces
-- [ ] changeset-1.2.1.1.2-backend-navigation-handlers
+- [x] changeset-1.2.1.1.1-define-navigation-interfaces
+- [x] changeset-1.2.1.1.2-backend-navigation-handlers
 
 ## チェックリスト
-- [ ] 一覧 API 契約が追加されている
-- [ ] 認証/認可ガードがフェイルクローズになっている
-- [ ] ページングの入力/出力が扱える
-- [ ] テストの追加範囲が明確
+- [x] 一覧 API 契約が追加されている
+- [x] 認証/認可ガードがフェイルクローズになっている
+- [x] ページングの入力/出力が扱える
+- [x] テストの追加範囲が明確
