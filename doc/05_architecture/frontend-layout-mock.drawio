@@ -1,0 +1,25 @@
+<mxfile host="65bd71144e">
+    <diagram id="frontend-layout-mock" name="Frontend Layout Mock">
+        <mxGraphModel dx="1162" dy="940" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="420" pageHeight="820" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" value="Search Icon (Tap to open Search &amp; Filters)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#43A047;" parent="1" vertex="1">
+                    <mxGeometry x="20" y="20" width="380" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Breadcrumbs (Compact)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E0F7FA;strokeColor=#00838F;" parent="1" vertex="1">
+                    <mxGeometry x="20" y="70" width="380" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Results List (Name, Size, Type, Modified)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E0F7FA;strokeColor=#00838F;" parent="1" vertex="1">
+                    <mxGeometry x="20" y="120" width="380" height="580" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Item tap -&gt; Preview Screen" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="702" width="380" height="16" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Bottom Nav" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#6A1B9A;" parent="1" vertex="1">
+                    <mxGeometry x="20" y="720" width="380" height="50" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

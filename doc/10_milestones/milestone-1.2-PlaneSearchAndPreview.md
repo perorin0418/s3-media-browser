@@ -24,8 +24,8 @@
 - 対象形式の軽量プレビューがストレスなく閲覧できる
 
 ## 対象 Feature
-- [ ] feature-1.2.1-search-and-filtering
-- [ ] feature-1.2.2-metadata-list-and-preview
+- [ ] feature-1.2.1-search-and-filtering.md
+- [ ] feature-1.2.2-metadata-list-and-preview.md
 
 ## 依存関係
 - 前提条件: 1.1 の安全な閲覧基盤が成立している
