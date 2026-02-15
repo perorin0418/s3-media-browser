@@ -1,8 +1,8 @@
 # Feature
 
 ## Feature 名
-- ID： feature-1.2.1-search-and-filtering
-- 所属 Milestone： milestone-1.2-PlaneSearchAndPreview
+- ID： feature-1.3.1-search-and-filtering
+- 所属 Milestone： milestone-1.3-PlaneSearchAndPreview
 
 ## 概要
 S3 メディアをバケット/フォルダ単位で探索でき、メタデータ条件で検索・絞り込みできる体験を提供する。
@@ -30,8 +30,8 @@ S3 メディアをバケット/フォルダ単位で探索でき、メタデー�
 - エラーハンドリングはフェイルクローズを徹底し、ユーザーに再試行手段を示す
 
 ## 対象 Task
-- [ ] task-1.2.1.1-xxxxx
-- [ ] task-1.2.1.2-xxxxx
+- [ ] task-1.3.1.1-xxxxx
+- [ ] task-1.3.1.2-xxxxx
 
 ## 受け入れ条件
 - ユーザーがバケット/フォルダ単位で目的のメディアに到達できる

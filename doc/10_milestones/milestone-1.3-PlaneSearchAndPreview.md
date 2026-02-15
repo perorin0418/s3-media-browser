@@ -1,7 +1,7 @@
 # Milestone
 
 ## Milestone 名
-- ID: 1.2
+- ID: 1.3
 - 対応 Vision: vision-1-s3-media-browser
 
 ## 目的
@@ -24,11 +24,11 @@
 - 対象形式の軽量プレビューがストレスなく閲覧できる
 
 ## 対象 Feature
-- [ ] feature-1.2.1-search-and-filtering.md
-- [ ] feature-1.2.2-metadata-list-and-preview.md
+- [ ] feature-1.3.1-search-and-filtering.md
+- [ ] feature-1.3.2-metadata-list-and-preview.md
 
 ## 依存関係
-- 前提条件: 1.1 の安全な閲覧基盤が成立している
+- 前提条件: 1.1 の安全な閲覧基盤と 1.2 の一覧/メタデータ基盤が成立している
 - 後続への影響: 音楽・動画・圧縮画像の個別体験の入口となる
 
 ## リスク・注意点

@@ -39,7 +39,8 @@ S3 に保存されたメディア（動画・音楽・圧縮画像）を、安�
 
 ## 対象 Milestones
 - [ ] milestone-1.1-SecureBrowseFoundation.md
-- [ ] milestone-1.2-PlaneSearchAndPreview.md
-- [ ] milestone-1.3-MusicPlaybackExperience.md
-- [ ] milestone-1.4-VideoPlayerExperience.md
-- [ ] milestone-1.5-ZipImageViewerExperience.md
+- [ ] milestone-1.2-BrowseObjectsWithMetadata.md
+- [ ] milestone-1.3-PlaneSearchAndPreview.md
+- [ ] milestone-1.4-MusicPlaybackExperience.md
+- [ ] milestone-1.5-VideoPlayerExperience.md
+- [ ] milestone-1.6-ZipImageViewerExperience.md

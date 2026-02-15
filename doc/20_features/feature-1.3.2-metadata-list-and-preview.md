@@ -1,8 +1,8 @@
 # Feature
 
 ## Feature 名
-- ID： feature-1.2.2-metadata-list-and-preview
-- 所属 Milestone： milestone-1.2-PlaneSearchAndPreview
+- ID： feature-1.3.2-metadata-list-and-preview
+- 所属 Milestone： milestone-1.3-PlaneSearchAndPreview
 
 ## 概要
 一覧でメタデータを把握でき、ブラウザ標準で閲覧可能な形式について軽量プレビューを提供する。
@@ -30,8 +30,8 @@
 - エラーハンドリングはフェイルクローズを徹底し、一覧体験を阻害しない
 
 ## 対象 Task
-- [ ] task-1.2.2.1-xxxxx
-- [ ] task-1.2.2.2-xxxxx
+- [ ] task-1.3.2.1-xxxxx
+- [ ] task-1.3.2.2-xxxxx
 
 ## 受け入れ条件
 - 一覧で主要メタデータが確認できる

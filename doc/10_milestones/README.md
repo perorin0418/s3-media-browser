@@ -95,6 +95,12 @@ milestone-3.4-Release.md
 
 ---
 
+## 変更理由・影響範囲
+
+- 2026-02-15: 「BrowseObjectsWithMetadata」を Milestone 1.2 として追加し、既存 1.2〜1.5 を 1.3〜1.6 に繰り下げ。関連 Feature を改番。検索/プレビュー系は 1.3 に移動。
+
+---
+
 ## まとめ
 
 Milestone は、

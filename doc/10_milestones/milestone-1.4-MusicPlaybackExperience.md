@@ -1,7 +1,7 @@
 # Milestone
 
 ## Milestone 名
-- ID: 1.3
+- ID: 1.4
 - 対応 Vision: vision-1-s3-media-browser
 
 ## 目的
@@ -24,11 +24,11 @@
 - 再生中の状態がユーザーに分かる
 
 ## 対象 Feature
-- [ ] feature-1.3.1-folder-playback
-- [ ] feature-1.3.2-shuffle-playback
+- [ ] feature-1.4.1-folder-playback
+- [ ] feature-1.4.2-shuffle-playback
 
 ## 依存関係
-- 前提条件: 1.1 の閲覧基盤と 1.2 のナビゲーションが利用可能
+- 前提条件: 1.1 の閲覧基盤と 1.3 の検索/一覧基盤が利用可能
 - 後続への影響: 音楽体験に関する拡張要件の基準となる
 
 ## リスク・注意点
