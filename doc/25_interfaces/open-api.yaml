@@ -1,0 +1,173 @@
+openapi: 3.0.3
+info:
+  title: S3 Navigation API
+  version: "1.0"
+paths:
+  /api/s3/buckets:
+    get:
+      summary: List buckets
+      parameters:
+        - name: Authorization
+          in: header
+          required: true
+          schema:
+            type: string
+        - name: continuation_token
+          in: query
+          required: false
+          schema:
+            type: string
+          description: Opaque string. Clients must not parse it.
+        - name: limit
+          in: query
+          required: false
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 1000
+            default: 100
+          description: Accepts 1..1000. Default 100 when omitted.
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/BucketsResponse"
+        "401":
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+        "403":
+          description: Forbidden
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+        "500":
+          description: Internal Server Error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+  /api/s3/prefixes:
+    get:
+      summary: List prefixes
+      parameters:
+        - name: Authorization
+          in: header
+          required: true
+          schema:
+            type: string
+        - name: bucket
+          in: query
+          required: true
+          schema:
+            type: string
+        - name: prefix
+          in: query
+          required: false
+          schema:
+            type: string
+          description: Empty or omitted means the bucket root.
+        - name: continuation_token
+          in: query
+          required: false
+          schema:
+            type: string
+          description: Opaque string. Clients must not parse it.
+        - name: limit
+          in: query
+          required: false
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 1000
+            default: 100
+          description: Accepts 1..1000. Default 100 when omitted.
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/PrefixesResponse"
+        "401":
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+        "403":
+          description: Forbidden
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+        "500":
+          description: Internal Server Error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+components:
+  schemas:
+    Bucket:
+      type: object
+      required:
+        - name
+      properties:
+        name:
+          type: string
+    Prefix:
+      type: object
+      required:
+        - prefix
+      properties:
+        prefix:
+          type: string
+    BucketsResponse:
+      type: object
+      required:
+        - buckets
+        - continuation_token
+      properties:
+        buckets:
+          type: array
+          items:
+            $ref: "#/components/schemas/Bucket"
+        continuation_token:
+          type: string
+          nullable: true
+          description: Always present. Null or empty means there is no next page.
+    PrefixesResponse:
+      type: object
+      required:
+        - prefixes
+        - continuation_token
+      properties:
+        prefixes:
+          type: array
+          items:
+            $ref: "#/components/schemas/Prefix"
+        continuation_token:
+          type: string
+          nullable: true
+          description: Always present. Null or empty means there is no next page.
+    ErrorResponse:
+      type: object
+      required:
+        - error
+      properties:
+        error:
+          type: object
+          required:
+            - code
+            - message
+          properties:
+            code:
+              type: string
+            message:
+              type: string

@@ -5,12 +5,12 @@
 - 所属 Task: task-1.2.1.1-bucket-folder-navigation-api
 
 ## 変更対象
-- doc/25_interfaces/s3-navigation-api.md
+- doc/25_interfaces/open-api.yaml
 
 ## ファイル一覧
 ※ 種別: Add / Modify / Delete
 
-### doc/25_interfaces/s3-navigation-api.md
+### doc/25_interfaces/open-api.yaml
 #### 1. バケット一覧 API を定義
 - 作業種別: Add
 - 目的: 一覧ナビゲーションの契約を明示するため
