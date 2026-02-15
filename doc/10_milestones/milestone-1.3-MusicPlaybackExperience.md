@@ -1,8 +1,8 @@
 # Milestone
 
 ## Milestone 名
-- ID: 01-03
-- 対応 Vision: vision-01-s3-media-browser
+- ID: 1.3
+- 対応 Vision: vision-1-s3-media-browser
 
 ## 目的
 音楽フォルダの連続再生・シャッフル再生を一操作で開始できる体験を提供する。
@@ -24,11 +24,11 @@
 - 再生中の状態がユーザーに分かる
 
 ## 対象 Feature
-- [ ] feature-01-03-01-folder-playback
-- [ ] feature-01-03-02-shuffle-playback
+- [ ] feature-1.3.1-folder-playback
+- [ ] feature-1.3.2-shuffle-playback
 
 ## 依存関係
-- 前提条件: 01-01 の閲覧基盤と 01-02 のナビゲーションが利用可能
+- 前提条件: 1.1 の閲覧基盤と 1.2 のナビゲーションが利用可能
 - 後続への影響: 音楽体験に関する拡張要件の基準となる
 
 ## リスク・注意点

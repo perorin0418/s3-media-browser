@@ -1,8 +1,8 @@
 # Feature
 
 ## Feature 名
-- ID: 01-01-01
-- Milestone: milestone-01-01-SecureBrowseFoundation
+- ID: 1.1-1
+- Milestone: milestone-1.1-SecureBrowseFoundation
 
 ## 概要
 認証済みユーザーが許可範囲内で S3 メディアの閲覧を開始でき、未認証または権限外のアクセスは遮断される基盤を整備する。
@@ -32,8 +32,8 @@
 - フェイルクローズ: 認証/認可が不確実な場合はアクセスを拒否する。
 
 ## 対象タスク
-- [x] task-01-01-01-01-auth-flow-baseline.md
-- [x] task-01-01-01-02-s3-access-authorization-guard.md
+- [x] task-1.1-1.1-auth-flow-baseline.md
+- [x] task-1.1-1.2-s3-access-authorization-guard.md
 
 ## 受け入れ条件
 - 認証済みユーザーが権限範囲内で閲覧を開始できる。

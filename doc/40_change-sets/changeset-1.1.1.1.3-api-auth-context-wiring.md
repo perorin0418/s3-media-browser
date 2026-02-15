@@ -1,8 +1,8 @@
 # ChangeSet
 
 ## ChangeSet 名
-- ID: changeset-01.01.01.01.03-api-auth-context-wiring
-- 所属 Task: task-01.01.01.01-auth-flow-baseline
+- ID: changeset-1.1.1.1.3-api-auth-context-wiring
+- 所属 Task: task-1.1.1.1-auth-flow-baseline
 
 ## 目的
 API 層で認証コンテキストを受け取り、S3 関連 API 呼び出しに引き渡す受け口を用意する。

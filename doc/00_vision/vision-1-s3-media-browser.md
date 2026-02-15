@@ -38,8 +38,8 @@ S3 に保存されたメディア（動画・音楽・圧縮画像）を、安�
 - フロントエンドは静的ホスティング、バックエンドはサーバーレス構成とする。
 
 ## 対象 Milestones
-- [ ] milestone-01-01-SecureBrowseFoundation.md
-- [ ] milestone-01-02-PlaneSearchAndPreview.md
-- [ ] milestone-01-03-MusicPlaybackExperience.md
-- [ ] milestone-01-04-VideoPlayerExperience.md
-- [ ] milestone-01-05-ZipImageViewerExperience.md
+- [ ] milestone-1.1-SecureBrowseFoundation.md
+- [ ] milestone-1.2-PlaneSearchAndPreview.md
+- [ ] milestone-1.3-MusicPlaybackExperience.md
+- [ ] milestone-1.4-VideoPlayerExperience.md
+- [ ] milestone-1.5-ZipImageViewerExperience.md

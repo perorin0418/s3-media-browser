@@ -1,8 +1,8 @@
 # ChangeSet
 
 ## ChangeSet 名
-- ID: changeset-01.01.01.01.01-cognito-hosted-ui-infra
-- 所属 Task: task-01.01.01.01-auth-flow-baseline
+- ID: changeset-1.1.1.1.1-cognito-hosted-ui-infra
+- 所属 Task: task-1.1.1.1-auth-flow-baseline
 
 ## 目的
 CDK（Python）で Cognito User Pool と Hosted UI を構成し、フロントエンドが参照する認証導線の基盤を確定する。

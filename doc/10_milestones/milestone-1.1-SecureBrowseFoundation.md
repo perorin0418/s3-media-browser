@@ -1,8 +1,8 @@
 # Milestone
 
 ## Milestone 名
-- ID: 01-01
-- 対応 Vision: vision-01-s3-media-browser
+- ID: 1.1
+- 対応 Vision: vision-1-s3-media-browser
 
 ## 目的
 安全に S3 上のメディアへアクセスし、閲覧を開始できる基盤を整える。
@@ -24,8 +24,8 @@
 - 以降の Milestone がこの基盤を前提に進められる
 
 ## 対象 Feature
-- [x] feature-01-01-01-auth-and-access-baseline.md
-- [ ] feature-01-01-02-secure-navigation-shell.md
+- [x] feature-1.1.1-auth-and-access-baseline.md
+- [ ] feature-1.1.2-secure-navigation-shell.md
 
 ## 依存関係
 - 前提条件: 既存の認証・認可基盤が利用可能であること

@@ -1,8 +1,8 @@
 # ChangeSet
 
 ## ChangeSet 名
-- ID: changeset-01.01.01.01.02-frontend-auth-entry
-- 所属 Task: task-01.01.01.01-auth-flow-baseline
+- ID: changeset-1.1.1.1.2-frontend-auth-entry
+- 所属 Task: task-1.1.1.1-auth-flow-baseline
 
 ## 目的
 Hosted UI を利用したサインイン導線とコールバック処理を追加し、未認証アクセスを遮断する入口を整える。

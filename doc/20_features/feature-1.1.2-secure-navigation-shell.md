@@ -1,8 +1,8 @@
 # Feature
 
 ## Feature 名
-- ID: 01-01-02
-- Milestone: milestone-01-01-SecureBrowseFoundation
+- ID: 1.1-2
+- Milestone: milestone-1.1-SecureBrowseFoundation
 
 ## 概要
 認証済みユーザーのみが到達できる安全な閲覧ナビゲーションシェルを提供し、以降の検索/プレビュー/再生体験の共通入口とする。
@@ -32,7 +32,7 @@
 - 将来の機能追加がシェルに依存できるよう拡張可能な構造とする。
 
 ## 対象 Task
-- [ ] task-01-01-02-01-secure-navigation-shell.md
+- [ ] task-1.1-2.1-secure-navigation-shell.md
 
 ## 受け入れ条件
 - 認証済みユーザーのみナビゲーションシェルが表示される。

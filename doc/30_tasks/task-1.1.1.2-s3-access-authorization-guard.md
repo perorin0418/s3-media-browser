@@ -1,8 +1,8 @@
 # Task
 
 ## Task 名
-- ID: task-01.01.01.02-s3-access-authorization-guard
-- 所属 Feature: feature-01-01-01-auth-and-access-baseline
+- ID: task-1.1.1.2-s3-access-authorization-guard
+- 所属 Feature: feature-1.1-1-auth-and-access-baseline
 
 ## 作業目的
 既存の権限モデルに基づき、S3 の一覧/取得アクセスを確実に認可し、未許可アクセスを遮断する。
@@ -38,8 +38,8 @@
 - 認可の不確実性がある場合にフェイルクローズとなる
 
 ## 対象 ChangeSets
-- [x] changeset-01.01.01.02.01-authorization-guard-implementation.md
-- [x] changeset-01.01.01.02.02-authorization-guard-error-paths.md
+- [x] changeset-1.1.1.2.1-authorization-guard-implementation.md
+- [x] changeset-1.1.1.2.2-authorization-guard-error-paths.md
 
 ## チェックリスト
 - [x] S3 の一覧/取得に認可ガードが適用されている

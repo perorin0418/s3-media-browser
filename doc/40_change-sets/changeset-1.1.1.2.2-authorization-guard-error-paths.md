@@ -1,8 +1,8 @@
 # ChangeSet
 
 ## ChangeSet 名
-- ID: changeset-01.01.01.02.02-authorization-guard-error-paths
-- 所属 Task: task-01.01.01.02-s3-access-authorization-guard
+- ID: changeset-1.1.1.2.2-authorization-guard-error-paths
+- 所属 Task: task-1.1.1.2-s3-access-authorization-guard
 
 ## 変更対象
 - 認可失敗時のフェイルクローズ処理の整備

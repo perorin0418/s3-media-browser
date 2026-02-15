@@ -1,8 +1,8 @@
 # Milestone
 
 ## Milestone 名
-- ID: 01-04
-- 対応 Vision: vision-01-s3-media-browser
+- ID: 1.4
+- 対応 Vision: vision-1-s3-media-browser
 
 ## 目的
 動画ファイルのサムネイルとブラウザ上のプレビュー体験を成立させる。
@@ -24,11 +24,11 @@
 - プレビューが実運用で使える安定性を満たす
 
 ## 対象 Feature
-- [ ] feature-01-04-01-video-thumbnails
-- [ ] feature-01-04-02-video-preview
+- [ ] feature-1.4-1-video-thumbnails
+- [ ] feature-1.4-2-video-preview
 
 ## 依存関係
-- 前提条件: 01-01 と 01-02 の閲覧/検索基盤が成立している
+- 前提条件: 1.1 と 1.2 の閲覧/検索基盤が成立している
 - 後続への影響: 動画体験の拡張や品質改善の基準となる
 
 ## リスク・注意点

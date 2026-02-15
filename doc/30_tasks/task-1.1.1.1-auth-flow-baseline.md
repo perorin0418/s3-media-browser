@@ -1,8 +1,8 @@
 # Task
 
 ## Task 名
-- ID: task-01.01.01.01-auth-flow-baseline
-- 所属 Feature: feature-01-01-01-auth-and-access-baseline
+- ID: task-1.1.1.1-auth-flow-baseline
+- 所属 Feature: feature-1.1-1-auth-and-access-baseline
 
 ## 作業目的
 CDK で構築した Cognito と Hosted UI を前提に、認証導線と認証状態の取得を成立させ、未認証の閲覧入口アクセスを遮断できる基盤を整える。
@@ -44,9 +44,9 @@ CDK で構築した Cognito と Hosted UI を前提に、認証導線と認証�
 - 認証不確実時はアクセスが拒否される
 
 ## 対象 ChangeSets
-- [x] changeset-01.01.01.01.01-cognito-hosted-ui-infra.md
-- [x] changeset-01.01.01.01.02-frontend-auth-entry.md
-- [x] changeset-01.01.01.01.03-api-auth-context-wiring.md
+- [x] changeset-1.1.1.1.1-cognito-hosted-ui-infra.md
+- [x] changeset-1.1.1.1.2-frontend-auth-entry.md
+- [x] changeset-1.1.1.1.3-api-auth-context-wiring.md
 
 ## チェックリスト
 - [ ] Cognito は CDK 構成として定義されている

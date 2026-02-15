@@ -1,8 +1,8 @@
 # ChangeSet
 
 ## ChangeSet 名
-- ID: changeset-01.01.01.02.01-authorization-guard-implementation
-- 所属 Task: task-01.01.01.02-s3-access-authorization-guard
+- ID: changeset-1.1.1.2.1-authorization-guard-implementation
+- 所属 Task: task-1.1.1.2-s3-access-authorization-guard
 
 ## 変更対象
 - S3 一覧取得の認可ガード適用と責務分離

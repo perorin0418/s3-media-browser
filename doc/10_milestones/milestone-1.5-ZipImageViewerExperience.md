@@ -1,8 +1,8 @@
 # Milestone
 
 ## Milestone 名
-- ID: 01-05
-- 対応 Vision: vision-01-s3-media-browser
+- ID: 1.5
+- 対応 Vision: vision-1-s3-media-browser
 
 ## 目的
 圧縮画像の内容をブラウザ上で確認できる体験を提供する。
@@ -24,11 +24,11 @@
 - 利用者が実務で使える品質を満たす
 
 ## 対象 Feature
-- [ ] feature-01-05-01-zip-image-browse
-- [ ] feature-01-05-02-zip-image-viewer
+- [ ] feature-1.5-1-zip-image-browse
+- [ ] feature-1.5-2-zip-image-viewer
 
 ## 依存関係
-- 前提条件: 01-01 と 01-02 の閲覧/検索基盤が成立している
+- 前提条件: 1.1 と 1.2 の閲覧/検索基盤が成立している
 - 後続への影響: 圧縮画像体験の拡張や最適化の基準となる
 
 ## リスク・注意点
