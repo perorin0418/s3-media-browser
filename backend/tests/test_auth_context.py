@@ -1,7 +1,11 @@
 import pytest
 
 from backend.app.middleware.auth_context import extract_auth_context
-from backend.app.routes.s3 import AuthContextMissingError, list_objects_handler
+from backend.app.routes.s3 import (
+    AuthContextMissingError,
+    AuthorizationDeniedError,
+    list_objects_handler,
+)
 from backend.model.auth_context import AuthContext
 
 
@@ -49,6 +53,7 @@ def test_list_objects_handler_requires_auth_context():
         list_objects_handler(
             auth_context=None,
             list_objects=lambda **_: {"ok": True},
+            authorize_list_objects=lambda **_: True,
             bucket="bucket-1",
             prefix=None,
         )
@@ -63,12 +68,67 @@ def test_list_objects_handler_passes_auth_context():
 
     auth_context = AuthContext(access_token="token", subject="user-1")
 
+    def stub_authorize_list_objects(**kwargs):
+        captured["authorize"] = kwargs
+        return True
+
     result = list_objects_handler(
         auth_context=auth_context,
         list_objects=stub_list_objects,
+        authorize_list_objects=stub_authorize_list_objects,
         bucket="bucket-1",
         prefix="prefix-1",
     )
 
     assert result == {"ok": True}
     assert captured["auth_context"] == auth_context
+    assert captured["authorize"]["auth_context"] == auth_context
+    assert captured["authorize"]["bucket"] == "bucket-1"
+    assert captured["authorize"]["prefix"] == "prefix-1"
+
+
+def test_list_objects_handler_rejects_unauthorized_access():
+    was_called = False
+
+    def stub_list_objects(**_):
+        nonlocal was_called
+        was_called = True
+        return {"ok": True}
+
+    auth_context = AuthContext(access_token="token", subject="user-1")
+
+    with pytest.raises(AuthorizationDeniedError):
+        list_objects_handler(
+            auth_context=auth_context,
+            list_objects=stub_list_objects,
+            authorize_list_objects=lambda **_: False,
+            bucket="bucket-1",
+            prefix=None,
+        )
+
+    assert was_called is False
+
+
+def test_list_objects_handler_fails_close_on_authorization_exception():
+    was_called = False
+
+    def stub_list_objects(**_):
+        nonlocal was_called
+        was_called = True
+        return {"ok": True}
+
+    def stub_authorize_list_objects(**_):
+        raise RuntimeError("boom")
+
+    auth_context = AuthContext(access_token="token", subject="user-1")
+
+    with pytest.raises(AuthorizationDeniedError):
+        list_objects_handler(
+            auth_context=auth_context,
+            list_objects=stub_list_objects,
+            authorize_list_objects=stub_authorize_list_objects,
+            bucket="bucket-1",
+            prefix=None,
+        )
+
+    assert was_called is False

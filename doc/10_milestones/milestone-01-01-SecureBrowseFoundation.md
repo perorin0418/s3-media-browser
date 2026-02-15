@@ -24,7 +24,7 @@
 - 以降の Milestone がこの基盤を前提に進められる
 
 ## 対象 Feature
-- [ ] feature-01-01-01-auth-and-access-baseline.md
+- [x] feature-01-01-01-auth-and-access-baseline.md
 - [ ] feature-01-01-02-secure-navigation-shell.md
 
 ## 依存関係

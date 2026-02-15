@@ -32,8 +32,8 @@
 - フェイルクローズ: 認証/認可が不確実な場合はアクセスを拒否する。
 
 ## 対象タスク
-- [ ] task-01-01-01-01-auth-flow-baseline.md
-- [ ] task-01-01-01-02-s3-access-authorization-guard.md
+- [x] task-01-01-01-01-auth-flow-baseline.md
+- [x] task-01-01-01-02-s3-access-authorization-guard.md
 
 ## 受け入れ条件
 - 認証済みユーザーが権限範囲内で閲覧を開始できる。

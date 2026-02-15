@@ -38,11 +38,11 @@
 - 認可の不確実性がある場合にフェイルクローズとなる
 
 ## 対象 ChangeSets
-- [ ] changeset-01.01.01.02.01-authorization-guard-implementation
-- [ ] changeset-01.01.01.02.02-authorization-guard-error-paths
+- [x] changeset-01.01.01.02.01-authorization-guard-implementation.md
+- [x] changeset-01.01.01.02.02-authorization-guard-error-paths.md
 
 ## チェックリスト
-- [ ] S3 の一覧/取得に認可ガードが適用されている
-- [ ] 未許可時に明確な遮断経路が提供されている
-- [ ] 既存の権限モデルのみに依存している
-- [ ] メタデータやオブジェクトが未許可時に公開されない
+- [x] S3 の一覧/取得に認可ガードが適用されている
+- [x] 未許可時に明確な遮断経路が提供されている
+- [x] 既存の権限モデルのみに依存している
+- [x] メタデータやオブジェクトが未許可時に公開されない
